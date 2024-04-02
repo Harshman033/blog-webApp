@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #21012a;
+}
+
+.form-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.submit-btn{
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: white;
+    background-color:  rgb(75, 5, 93);
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+}
+
+button:hover {
+    background-color:   rgb(116, 3, 145);
+    box-shadow: 0px 15px 20px rgba(127, 2, 158, 0.444);
+    color: white;
+    transform: translateY(-5px);
+}
+
+#form h3{
+text-align: center;
+color: #21012a;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=========== ANOTHER STYLE FOR THE BUTTON ============*/
+
+/* .submit-btn {
+    background-color: #590575;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 30px;
+    font-size: 16px;
+} */
+
+/* .submit-btn:hover {
+    opacity: 1;
+}
+
+.form-group input:focus {
+    background-color: #ddd;
+    outline: none;
+} */

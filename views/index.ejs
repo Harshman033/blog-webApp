@@ -1,0 +1,28 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container">
+  <div id="welcomemsg">
+    <h2>WELCOME TO LEVEL UP BLOGS!</h2>
+    <p>A place for all gamers</p>
+  </div>
+</div>
+
+<div>
+  <% if(locals.posts && locals.posts.length > 0) { %>
+    <% locals.posts.forEach(function(post){ %>
+      <div class="post">
+        <h2><%= post.title %></h2>
+        <h3>Written by: <%= post.author %></h3>
+        <a href="/posts/<%= post.id %>" id="readMore">Read More</a>
+      </div>
+    <% }); %>
+  <% } else { %>
+    <h1>Nothing has been posted yet</h1>
+  <% } %>
+</div>
+
+
+<!-- <div class="form-group"> <button type="submit" class="submit-btn"><a href="/posts/" id="readMore">Read More</a></button></div> -->
+
+
+

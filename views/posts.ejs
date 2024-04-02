@@ -1,0 +1,13 @@
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="/styles/posts.css">
+<body>
+ <div class="individualPost">
+     <div class="title"> <h1><%= post.title %></h1></div>
+     <div class="author"> <h3>Written by:- <%= post.author %></h3></div>
+     <div class="content"><p><%= post.content %></p></div>
+     <div id="buttons">
+        <div><a href="/" id="backToHome">Back to Home</a></div>
+        <div><a href="/authenticateDelete?id=<%= post.id %>" action="delete" id="deletePosts">Delete</a></div>
+    </div>
+ </div>
+</body>
