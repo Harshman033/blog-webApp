@@ -1,7 +1,7 @@
 
 # blog-webApp
 
-this is a website where you can create, view and delete posts.
+This is a website where you can create, view and delete posts.
 
 
 ## Features
