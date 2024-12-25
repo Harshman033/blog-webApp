@@ -25,7 +25,7 @@ Then install the requird npm packages using-
 ```bash
   npm i express body-parser 
 ```
-Note- Make sure that inside "package.json" file the "type" is set to "module".
+Note- Make sure that inside "package.json" file the "type" is set to "module". You can change the password inside index.js file.
 
 Lastly, run the project on your local server using-
 
